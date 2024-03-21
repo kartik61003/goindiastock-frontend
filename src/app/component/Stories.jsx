@@ -1,5 +1,5 @@
 import StoriesCard from "./StoriesCard";
-import StoriesApi from "../assets/storiesApi";
+import StoriesApi from "../assets/StoriesApi";
 import { useState } from "react";
 
 const Stories = () => {
