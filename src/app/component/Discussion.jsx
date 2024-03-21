@@ -1,6 +1,6 @@
 import DiscussionCard from "./DiscussionCard";
 import { useState } from "react";
-import DiscussionApi from "../assets/discussionApi";
+import DiscussionApi from "../assets/discussionApi.js";
 
 const Discussion = () => {
   const [discussions, setDiscussion] = useState(DiscussionApi);
